@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+h2{
+  display: inline-block;
+  margin:0px 70px 0px 70px;
+  font-size: 2rem;
+  color: lavender;
+}
+.ll{
+  position: absolute;
+  bottom: 110px;
+  font-size: 1.5rem;
+  color: lightgreen;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0px 140px 0px 140px;
+}
+    div{
+      margin: auto;
+    }
+    .col{
+      width: 63px;
+      height: 63px;
+      box-sizing: border-box;
+      padding: 3px;
+    }
+    .cont{
+      margin-right: 100px;
+      background: url(board1.jpg);
+      background-size: 630px 630px;
+      float: right;
+      height: 630px;
+      width: 630px;
+    }
+    .left{
+      width: 40%;
+      display: inline-block;
+      float: left;
+    }
+    .whole{
+      width: 100%;
+    }
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+.x{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  float: right;
+  border-radius: 100%;
+}
+.o{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  top: 27px;
+  float: left;
+  border-radius: 100%;
+}
+.game-over {
+  background-color: lightgreen;
+  opacity: 0.8;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.dice{
+  float: left;
+  display: block;
+  width: 250px;
+}
+.dice1{
+  float: right;
+  display: block;
+  width: 250px;
+}
